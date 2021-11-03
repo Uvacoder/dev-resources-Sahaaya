@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --port 8000",
+    "dev": "next dev",
     "build": "next build",
     "dev:watch": "next-remote-watch ./resources",
-    "start": "next start --port 8000",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
