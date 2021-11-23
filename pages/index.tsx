@@ -9,7 +9,7 @@ const Home: NextPage = () => {
     <Container maxW="container.md">
       <chakra.div pt="32">
         <Heading size="4xl" my={4}>
-          Dev Sahaaya
+          Lumberg
         </Heading>
         <chakra.p color="gray.500" pb="4">
           Resources for Javascript Developers
@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <Button
           rightIcon={<ArrowForwardIcon />}
           onClick={() => router.push("/resources")}>
-          Resources
+          abcResources
         </Button>
       </chakra.div>
     </Container>
