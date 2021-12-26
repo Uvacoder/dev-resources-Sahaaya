@@ -40,7 +40,7 @@ export const Sidebar: React.FC<SidebarProps> = (
           borderLeftColor="inherit"
         >
           <Heading fontSize="lg">
-            Contents
+            Content
           </Heading>
           <List>
             {props.sections.map((sec: any) => {
@@ -61,7 +61,7 @@ export const Sidebar: React.FC<SidebarProps> = (
           py="6"
         >
           <Heading fontSize="lg">
-            Resources
+            Resource
           </Heading>
           <List>
             {props.resources.map(
